@@ -1,0 +1,52 @@
+.App {
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 700px;
+    margin: 2rem auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e3e3e3;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0;
+    font-size: 1rem;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  label:hover {
+    background-color: #f3f3f3;
+    padding-left: 5px;
+    border-radius: 4px;
+  }
+  
+  input[type='checkbox'] {
+    width: 18px;
+    height: 18px;
+    accent-color: #3498db;
+    cursor: pointer;
+  }
+  
+  input[type='checkbox']:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.3);
+  }
+  
+  div {
+    transition: all 0.2s ease-in-out;
+  }
+  
